@@ -21,6 +21,8 @@ Distinguish event, observation, completion, source snapshot, actual model data, 
 
 No authoring binary, connector, Microsoft permission, or third-party skill is bundled. Inspect capabilities available in the host.
 
+For missing Microsoft implementation skills, follow [Microsoft skill setup](microsoft-setup.md). Install the relevant package through the host's authorized flow, then check its actual capabilities and access. Installation alone does not establish working connectivity.
+
 | Layer | Example installed capability | Ownership |
 |---|---|---|
 | Report/PBIR | `powerbi-report-cli` | Report layout, bindings, filters, navigation |
