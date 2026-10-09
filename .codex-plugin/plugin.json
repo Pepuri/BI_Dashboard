@@ -1,7 +1,7 @@
 {
   "name": "bi-dashboard-skills",
-  "version": "0.1.0",
-  "description": "Operational BI design, loading decisions, editing plans, and evidence-based review.",
+  "version": "0.1.1",
+  "description": "M365 operational BI design, loading choices, Microsoft skill setup, and evidence-based review.",
   "license": "MIT",
   "repository": "https://github.com/Pepuri/BI_Dashboard",
   "author": {
@@ -9,12 +9,12 @@
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "BI Dashboard Skills",
-    "shortDescription": "Design operational BI from business tasks and evidence.",
+    "displayName": "M365 BI Dashboard Skill",
+    "shortDescription": "Design M365 operational BI from tasks and evidence.",
     "longDescription": "Connect required fields, data contracts, loading choices, editing ownership, and acceptance before quality scores.",
     "developerName": "BI Dashboard Skills contributors",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "Draft an operational BI dashboard from my tasks, schema, required fields, and constraints."
+    "defaultPrompt": "Draft an M365 operational BI dashboard from my tasks, schema, required fields, and constraints."
   }
 }
