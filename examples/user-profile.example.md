@@ -1,18 +1,18 @@
-# 가상 사용자 프로필
+# Synthetic user profile
 
-실제 인물·고객사의 프로필이 아니다. 복사한 프로필은 본인의 프로젝트에 보관한다.
+This profile describes no real person or customer. Keep your customized copy in your own private project.
 
-- 역할: 장치 운영 담당자
-- 주요 질문: 어느 조직의 어떤 사용자·장치를 추가 확인해야 하는가?
-- 언어: 한국어
-- 표시 시간대: UTC (실제 정책에 따라 변경)
-- 화면: 데스크톱 1920×1080, 실제 사용 배율에서 확인
-- 조사표 필수 열: 표시 이름, 계정, 조직, 대상, 상태, 자료 기준일
-- 동선: 조직 선택 → 사용자/장치 목록 → 단일 상세 → 필터 유지 복귀
-- 요약: 의미 있는 비교와 조사 진입
-- 조사표: 필수 열, 충분한 행, 긴 값 읽힘
-- 수치: 정확한 건수와 단위·분모를 표시한 비율
-- 필수 수락: 대상 식별, 미연결 행 보존, 필터 범위 일치
-- 작업 방식: 기존 구조 재사용, 묶어서 편집, 영향 범위 검증
-- 프로젝트 설정: 일일 갱신, 최신 상태 모델; 이력 분석은 별도 결정
-- 결정 기록: 문제 → 이유 → 원칙 → 범위 → 확인 방법
+- Role: M365 device operations administrator.
+- Main question: Which organization's users and devices need investigation?
+- Output language: English; change to the user's requested language.
+- Display time zone: UTC; set the actual project policy.
+- Viewport: desktop 1920×1080; verify at the actual display scale.
+- Required investigation columns: display name, account, organization, target, state, and actual data date.
+- Navigation: organization → user/device list → single-target detail → return with filters preserved.
+- Overview: meaningful comparison and investigation entry.
+- Investigation table: required columns, sufficient visible rows, and readable long values.
+- Numbers: exact counts and ratios with units and denominators.
+- Acceptance: identify targets, preserve unmatched rows, and reconcile selected scope.
+- Working method: reuse sufficient assets, batch related edits, and verify affected work.
+- Project settings: daily refresh and latest-state model; decide history analysis separately.
+- Decision record: problem → reason → principle → scope → verification.
