@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bi-dashboard-skills",
-  "version": "0.1.0",
-  "description": "Operational BI design, loading decisions, editing plans, and evidence-based review.",
+  "version": "0.1.1",
+  "description": "M365 operational BI design, loading choices, Microsoft skill setup, and evidence-based review.",
   "license": "MIT",
   "repository": "https://github.com/Pepuri/BI_Dashboard"
 }
