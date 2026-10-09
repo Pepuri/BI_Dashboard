@@ -1,0 +1,33 @@
+{
+  "synthetic": true,
+  "purpose": "Documentation example; no real people, customers, accounts, or telemetry.",
+  "brief": {
+    "audience": "device operations administrator",
+    "tasks": ["Find stale synchronization by organization", "Identify accounts and inspect reported IP and version attributes"],
+    "freshness": "daily",
+    "scope": "design only",
+    "existing_model": "Import; latest snapshot only",
+    "raw_retention_days": 30,
+    "display_timezone": "UTC",
+    "missing_sources": ["app deployment errors", "script execution logs"],
+    "measured_performance": null
+  },
+  "tables": {
+    "users": {
+      "grain": "one row per userId; current directory organization",
+      "rows": [
+        {"userId": "U001", "displayName": "Sample User 1", "account": "user1@example.com", "organization": "Group A", "department": "Team 1"},
+        {"userId": "U002", "displayName": "Sample User 2", "account": "user2@example.com", "organization": "Group B", "department": "Team 2"}
+      ]
+    },
+    "devices": {
+      "grain": "one row per deviceId and snapshotDate",
+      "rows": [
+        {"deviceId": "D001", "snapshotDate": "2025-01-14", "userId": "U001", "deviceName": "Sample-PC-1", "osVersion": "sample-os-a", "agentVersion": "sample-agent-a", "lastSyncUtc": "2025-01-13T10:00:00Z", "reportedIp": "198.51.100.10"},
+        {"deviceId": "D001", "snapshotDate": "2025-01-15", "userId": "U001", "deviceName": "Sample-PC-1", "osVersion": "sample-os-a", "agentVersion": "sample-agent-b", "lastSyncUtc": "2025-01-13T10:00:00Z", "reportedIp": "198.51.100.10"},
+        {"deviceId": "D002", "snapshotDate": "2025-01-15", "userId": "U002", "deviceName": "Sample-PC-2", "osVersion": "sample-os-b", "agentVersion": "sample-agent-a", "lastSyncUtc": "2025-01-02T10:00:00Z", "reportedIp": "203.0.113.20"},
+        {"deviceId": "D003", "snapshotDate": "2025-01-15", "userId": null, "deviceName": "Sample-PC-3", "osVersion": null, "agentVersion": null, "lastSyncUtc": null, "reportedIp": null}
+      ]
+    }
+  }
+}
