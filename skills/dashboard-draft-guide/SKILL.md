@@ -1,13 +1,15 @@
 ---
 name: dashboard-draft-guide
-description: Design or resume operational Power BI and Fabric dashboards from business tasks, required investigation fields, data-loading choices, an editing plan, and evidence-based acceptance. Use for dashboard briefs and design reviews; implementation uses the host's available authoring tools.
+description: Design or resume M365 operational dashboards in Power BI and Fabric from business tasks, required investigation fields, data-loading choices, an editing plan, and evidence-based acceptance. Use for dashboard briefs and design reviews; implementation uses the host's available authoring tools.
 ---
 
-# Operational dashboard draft guide
+# M365 BI Dashboard Skill
 
 Help the audience find targets, narrow the scope, inspect evidence, and make decisions. Preserve useful existing analysis and retain the reasons behind approved design decisions.
 
 This instruction-only skill works with supplied briefs and schemas. Authoring tools are optional and not bundled. Design-only requests do not authorize publication, scheduling, or data changes.
+
+Apply it to M365 operations, including Intune device and Entra ID account investigations, when the supplied data supports those tasks. Derive workload coverage from actual sources. Write deliverables in the user's requested language; English package documentation does not require English dashboard labels.
 
 ## Recover the design contract
 
@@ -46,6 +48,8 @@ Separate source retention, serving-table retention, model loading, and view filt
 Distinguish event/observation/collection times, source snapshot, actual model data date, refresh, time zone, missing data, and failure. A last-good fallback must identify the data actually in use.
 
 For implementation, state target artifact, available capability, edit layer/method, scope, and affected checks. Route report files, models, transforms, and browser operations to corresponding installed tools. When unavailable, finish the independent design and identify unperformed implementation; never invent commands or bypass host contracts.
+
+Read [Microsoft skill setup](references/microsoft-setup.md) when preparing an implementation environment or identifying missing authoring skills. Check existing capabilities first. Offer the relevant official Microsoft package and use the host's installation flow when installation is requested or already authorized. A design-only request does not require installation. Recheck that the installed skill, required runtime, authentication, and target access are usable before claiming implementation readiness.
 
 Use one writer per artifact/live UI and read-only reviewers when useful. Batch related edits and expand from representative overview/investigation pages. Protect unsaved human work under the host's rules. Formatting changes do not automatically require ETL rebuilds or model refresh.
 
