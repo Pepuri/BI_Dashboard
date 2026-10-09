@@ -1,0 +1,14 @@
+# Private project material is excluded from distribution.
+.local/
+private/
+customer-data/
+.env
+.env.*
+*.pbix
+*.pbit
+*.parquet
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
