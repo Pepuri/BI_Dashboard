@@ -1,0 +1,4 @@
+interface:
+  display_name: "BI Dashboard Draft Guide"
+  short_description: "Design operational BI with clear data contracts and evidence"
+  default_prompt: "Use $dashboard-draft-guide to draft an operational dashboard with required fields, loading choices, an editing plan and review criteria."
