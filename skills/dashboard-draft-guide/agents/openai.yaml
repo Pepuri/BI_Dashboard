@@ -1,4 +1,4 @@
 interface:
-  display_name: "BI Dashboard Draft Guide"
-  short_description: "Design operational BI with clear data contracts and evidence"
-  default_prompt: "Use $dashboard-draft-guide to draft an operational dashboard with required fields, loading choices, an editing plan and review criteria."
+  display_name: "M365 BI Dashboard Skill"
+  short_description: "Design M365 BI with data contracts and evidence-based review"
+  default_prompt: "Use $dashboard-draft-guide to draft an M365 operational dashboard with required fields, loading choices, an editing plan and review criteria."
